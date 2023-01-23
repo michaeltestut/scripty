@@ -99,10 +99,12 @@
 		E504B1FE297E427D00FE55C1 /* Scripty */ = {
 			isa = PBXGroup;
 			children = (
+				E504B231297E434100FE55C1 /* Controller */,
+				E504B230297E433B00FE55C1 /* View */,
+				E504B22F297E433100FE55C1 /* Model */,
 				E504B1FF297E427D00FE55C1 /* AppDelegate.swift */,
 				E504B201297E427D00FE55C1 /* SceneDelegate.swift */,
 				E504B203297E427D00FE55C1 /* ViewController.swift */,
-				E504B205297E427D00FE55C1 /* Main.storyboard */,
 				E504B208297E428000FE55C1 /* Assets.xcassets */,
 				E504B20A297E428000FE55C1 /* LaunchScreen.storyboard */,
 				E504B20D297E428000FE55C1 /* Info.plist */,
@@ -125,6 +127,28 @@
 				E504B222297E428100FE55C1 /* ScriptyUITestsLaunchTests.swift */,
 			);
 			path = ScriptyUITests;
+			sourceTree = "<group>";
+		};
+		E504B22F297E433100FE55C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E504B230297E433B00FE55C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E504B205297E427D00FE55C1 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E504B231297E434100FE55C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
