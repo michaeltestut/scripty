@@ -7,66 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E504B200297E427D00FE55C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E504B1FF297E427D00FE55C1 /* AppDelegate.swift */; };
-		E504B202297E427D00FE55C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E504B201297E427D00FE55C1 /* SceneDelegate.swift */; };
-		E504B204297E427D00FE55C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E504B203297E427D00FE55C1 /* ViewController.swift */; };
-		E504B207297E427D00FE55C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E504B205297E427D00FE55C1 /* Main.storyboard */; };
-		E504B209297E428000FE55C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E504B208297E428000FE55C1 /* Assets.xcassets */; };
-		E504B20C297E428000FE55C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E504B20A297E428000FE55C1 /* LaunchScreen.storyboard */; };
-		E504B217297E428100FE55C1 /* ScriptyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E504B216297E428100FE55C1 /* ScriptyTests.swift */; };
-		E504B221297E428100FE55C1 /* ScriptyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E504B220297E428100FE55C1 /* ScriptyUITests.swift */; };
-		E504B223297E428100FE55C1 /* ScriptyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E504B222297E428100FE55C1 /* ScriptyUITestsLaunchTests.swift */; };
+		E57E251F298B3AA700782E10 /* ScriptyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57E251E298B3AA700782E10 /* ScriptyApp.swift */; };
+		E57E2521298B3AA700782E10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57E2520298B3AA700782E10 /* ContentView.swift */; };
+		E57E2523298B3AA900782E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E57E2522298B3AA900782E10 /* Assets.xcassets */; };
+		E57E2526298B3AA900782E10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E57E2525298B3AA900782E10 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E504B213297E428100FE55C1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E504B1F4297E427D00FE55C1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E504B1FB297E427D00FE55C1;
-			remoteInfo = Scripty;
-		};
-		E504B21D297E428100FE55C1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E504B1F4297E427D00FE55C1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E504B1FB297E427D00FE55C1;
-			remoteInfo = Scripty;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		E504B1FC297E427D00FE55C1 /* Scripty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scripty.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E504B1FF297E427D00FE55C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E504B201297E427D00FE55C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E504B203297E427D00FE55C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E504B206297E427D00FE55C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E504B208297E428000FE55C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E504B20B297E428000FE55C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E504B20D297E428000FE55C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E504B212297E428100FE55C1 /* ScriptyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScriptyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E504B216297E428100FE55C1 /* ScriptyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptyTests.swift; sourceTree = "<group>"; };
-		E504B21C297E428100FE55C1 /* ScriptyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScriptyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E504B220297E428100FE55C1 /* ScriptyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptyUITests.swift; sourceTree = "<group>"; };
-		E504B222297E428100FE55C1 /* ScriptyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E57E251B298B3AA700782E10 /* Scripty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scripty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57E251E298B3AA700782E10 /* ScriptyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptyApp.swift; sourceTree = "<group>"; };
+		E57E2520298B3AA700782E10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E57E2522298B3AA900782E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E57E2525298B3AA900782E10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E504B1F9297E427D00FE55C1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E504B20F297E428100FE55C1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E504B219297E428100FE55C1 /* Frameworks */ = {
+		E57E2518298B3AA700782E10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,91 +32,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E504B1F3297E427D00FE55C1 = {
+		E57E2512298B3AA700782E10 = {
 			isa = PBXGroup;
 			children = (
-				E504B1FE297E427D00FE55C1 /* Scripty */,
-				E504B215297E428100FE55C1 /* ScriptyTests */,
-				E504B21F297E428100FE55C1 /* ScriptyUITests */,
-				E504B1FD297E427D00FE55C1 /* Products */,
+				E57E251D298B3AA700782E10 /* Scripty */,
+				E57E251C298B3AA700782E10 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E504B1FD297E427D00FE55C1 /* Products */ = {
+		E57E251C298B3AA700782E10 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E504B1FC297E427D00FE55C1 /* Scripty.app */,
-				E504B212297E428100FE55C1 /* ScriptyTests.xctest */,
-				E504B21C297E428100FE55C1 /* ScriptyUITests.xctest */,
+				E57E251B298B3AA700782E10 /* Scripty.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E504B1FE297E427D00FE55C1 /* Scripty */ = {
+		E57E251D298B3AA700782E10 /* Scripty */ = {
 			isa = PBXGroup;
 			children = (
-				E504B231297E434100FE55C1 /* Controller */,
-				E504B230297E433B00FE55C1 /* View */,
-				E504B22F297E433100FE55C1 /* Model */,
-				E504B1FF297E427D00FE55C1 /* AppDelegate.swift */,
-				E504B201297E427D00FE55C1 /* SceneDelegate.swift */,
-				E504B203297E427D00FE55C1 /* ViewController.swift */,
-				E504B208297E428000FE55C1 /* Assets.xcassets */,
-				E504B20A297E428000FE55C1 /* LaunchScreen.storyboard */,
-				E504B20D297E428000FE55C1 /* Info.plist */,
+				E57E251E298B3AA700782E10 /* ScriptyApp.swift */,
+				E57E2520298B3AA700782E10 /* ContentView.swift */,
+				E57E2522298B3AA900782E10 /* Assets.xcassets */,
+				E57E2524298B3AA900782E10 /* Preview Content */,
 			);
 			path = Scripty;
 			sourceTree = "<group>";
 		};
-		E504B215297E428100FE55C1 /* ScriptyTests */ = {
+		E57E2524298B3AA900782E10 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				E504B216297E428100FE55C1 /* ScriptyTests.swift */,
+				E57E2525298B3AA900782E10 /* Preview Assets.xcassets */,
 			);
-			path = ScriptyTests;
-			sourceTree = "<group>";
-		};
-		E504B21F297E428100FE55C1 /* ScriptyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E504B220297E428100FE55C1 /* ScriptyUITests.swift */,
-				E504B222297E428100FE55C1 /* ScriptyUITestsLaunchTests.swift */,
-			);
-			path = ScriptyUITests;
-			sourceTree = "<group>";
-		};
-		E504B22F297E433100FE55C1 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		E504B230297E433B00FE55C1 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E504B205297E427D00FE55C1 /* Main.storyboard */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		E504B231297E434100FE55C1 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E504B1FB297E427D00FE55C1 /* Scripty */ = {
+		E57E251A298B3AA700782E10 /* Scripty */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E504B226297E428100FE55C1 /* Build configuration list for PBXNativeTarget "Scripty" */;
+			buildConfigurationList = E57E2529298B3AA900782E10 /* Build configuration list for PBXNativeTarget "Scripty" */;
 			buildPhases = (
-				E504B1F8297E427D00FE55C1 /* Sources */,
-				E504B1F9297E427D00FE55C1 /* Frameworks */,
-				E504B1FA297E427D00FE55C1 /* Resources */,
+				E57E2517298B3AA700782E10 /* Sources */,
+				E57E2518298B3AA700782E10 /* Frameworks */,
+				E57E2519298B3AA700782E10 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -168,69 +84,25 @@
 			);
 			name = Scripty;
 			productName = Scripty;
-			productReference = E504B1FC297E427D00FE55C1 /* Scripty.app */;
+			productReference = E57E251B298B3AA700782E10 /* Scripty.app */;
 			productType = "com.apple.product-type.application";
-		};
-		E504B211297E428100FE55C1 /* ScriptyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E504B229297E428100FE55C1 /* Build configuration list for PBXNativeTarget "ScriptyTests" */;
-			buildPhases = (
-				E504B20E297E428100FE55C1 /* Sources */,
-				E504B20F297E428100FE55C1 /* Frameworks */,
-				E504B210297E428100FE55C1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E504B214297E428100FE55C1 /* PBXTargetDependency */,
-			);
-			name = ScriptyTests;
-			productName = ScriptyTests;
-			productReference = E504B212297E428100FE55C1 /* ScriptyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E504B21B297E428100FE55C1 /* ScriptyUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E504B22C297E428100FE55C1 /* Build configuration list for PBXNativeTarget "ScriptyUITests" */;
-			buildPhases = (
-				E504B218297E428100FE55C1 /* Sources */,
-				E504B219297E428100FE55C1 /* Frameworks */,
-				E504B21A297E428100FE55C1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E504B21E297E428100FE55C1 /* PBXTargetDependency */,
-			);
-			name = ScriptyUITests;
-			productName = ScriptyUITests;
-			productReference = E504B21C297E428100FE55C1 /* ScriptyUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E504B1F4297E427D00FE55C1 /* Project object */ = {
+		E57E2513298B3AA700782E10 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					E504B1FB297E427D00FE55C1 = {
+					E57E251A298B3AA700782E10 = {
 						CreatedOnToolsVersion = 14.2;
-					};
-					E504B211297E428100FE55C1 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = E504B1FB297E427D00FE55C1;
-					};
-					E504B21B297E428100FE55C1 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = E504B1FB297E427D00FE55C1;
 					};
 				};
 			};
-			buildConfigurationList = E504B1F7297E427D00FE55C1 /* Build configuration list for PBXProject "Scripty" */;
+			buildConfigurationList = E57E2516298B3AA700782E10 /* Build configuration list for PBXProject "Scripty" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -238,109 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = E504B1F3297E427D00FE55C1;
-			productRefGroup = E504B1FD297E427D00FE55C1 /* Products */;
+			mainGroup = E57E2512298B3AA700782E10;
+			productRefGroup = E57E251C298B3AA700782E10 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E504B1FB297E427D00FE55C1 /* Scripty */,
-				E504B211297E428100FE55C1 /* ScriptyTests */,
-				E504B21B297E428100FE55C1 /* ScriptyUITests */,
+				E57E251A298B3AA700782E10 /* Scripty */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E504B1FA297E427D00FE55C1 /* Resources */ = {
+		E57E2519298B3AA700782E10 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E504B20C297E428000FE55C1 /* LaunchScreen.storyboard in Resources */,
-				E504B209297E428000FE55C1 /* Assets.xcassets in Resources */,
-				E504B207297E427D00FE55C1 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E504B210297E428100FE55C1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E504B21A297E428100FE55C1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				E57E2526298B3AA900782E10 /* Preview Assets.xcassets in Resources */,
+				E57E2523298B3AA900782E10 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E504B1F8297E427D00FE55C1 /* Sources */ = {
+		E57E2517298B3AA700782E10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E504B204297E427D00FE55C1 /* ViewController.swift in Sources */,
-				E504B200297E427D00FE55C1 /* AppDelegate.swift in Sources */,
-				E504B202297E427D00FE55C1 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E504B20E297E428100FE55C1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E504B217297E428100FE55C1 /* ScriptyTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E504B218297E428100FE55C1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E504B221297E428100FE55C1 /* ScriptyUITests.swift in Sources */,
-				E504B223297E428100FE55C1 /* ScriptyUITestsLaunchTests.swift in Sources */,
+				E57E2521298B3AA700782E10 /* ContentView.swift in Sources */,
+				E57E251F298B3AA700782E10 /* ScriptyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		E504B214297E428100FE55C1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E504B1FB297E427D00FE55C1 /* Scripty */;
-			targetProxy = E504B213297E428100FE55C1 /* PBXContainerItemProxy */;
-		};
-		E504B21E297E428100FE55C1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E504B1FB297E427D00FE55C1 /* Scripty */;
-			targetProxy = E504B21D297E428100FE55C1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E504B205297E427D00FE55C1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E504B206297E427D00FE55C1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E504B20A297E428000FE55C1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E504B20B297E428000FE55C1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		E504B224297E428100FE55C1 /* Debug */ = {
+		E57E2527298B3AA900782E10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -400,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		E504B225297E428100FE55C1 /* Release */ = {
+		E57E2528298B3AA900782E10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -454,19 +259,20 @@
 			};
 			name = Release;
 		};
-		E504B227297E428100FE55C1 /* Debug */ = {
+		E57E252A298B3AA900782E10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Scripty/Preview Content\"";
 				DEVELOPMENT_TEAM = J7DPGWFCLW;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Scripty/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -482,19 +288,20 @@
 			};
 			name = Debug;
 		};
-		E504B228297E428100FE55C1 /* Release */ = {
+		E57E252B298B3AA900782E10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Scripty/Preview Content\"";
 				DEVELOPMENT_TEAM = J7DPGWFCLW;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Scripty/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -507,125 +314,31 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		E504B22A297E428100FE55C1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J7DPGWFCLW;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.testut.ScriptyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scripty.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scripty";
-			};
-			name = Debug;
-		};
-		E504B22B297E428100FE55C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J7DPGWFCLW;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.testut.ScriptyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scripty.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scripty";
-			};
-			name = Release;
-		};
-		E504B22D297E428100FE55C1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J7DPGWFCLW;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.testut.ScriptyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Scripty;
-			};
-			name = Debug;
-		};
-		E504B22E297E428100FE55C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J7DPGWFCLW;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.testut.ScriptyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Scripty;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E504B1F7297E427D00FE55C1 /* Build configuration list for PBXProject "Scripty" */ = {
+		E57E2516298B3AA700782E10 /* Build configuration list for PBXProject "Scripty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E504B224297E428100FE55C1 /* Debug */,
-				E504B225297E428100FE55C1 /* Release */,
+				E57E2527298B3AA900782E10 /* Debug */,
+				E57E2528298B3AA900782E10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E504B226297E428100FE55C1 /* Build configuration list for PBXNativeTarget "Scripty" */ = {
+		E57E2529298B3AA900782E10 /* Build configuration list for PBXNativeTarget "Scripty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E504B227297E428100FE55C1 /* Debug */,
-				E504B228297E428100FE55C1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E504B229297E428100FE55C1 /* Build configuration list for PBXNativeTarget "ScriptyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E504B22A297E428100FE55C1 /* Debug */,
-				E504B22B297E428100FE55C1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E504B22C297E428100FE55C1 /* Build configuration list for PBXNativeTarget "ScriptyUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E504B22D297E428100FE55C1 /* Debug */,
-				E504B22E297E428100FE55C1 /* Release */,
+				E57E252A298B3AA900782E10 /* Debug */,
+				E57E252B298B3AA900782E10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E504B1F4297E427D00FE55C1 /* Project object */;
+	rootObject = E57E2513298B3AA700782E10 /* Project object */;
 }
