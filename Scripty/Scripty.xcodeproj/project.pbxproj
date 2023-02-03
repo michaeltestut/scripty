@@ -13,6 +13,9 @@
 		E57E2540298B3C1E00782E10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E57E253F298B3C1E00782E10 /* Preview Assets.xcassets */; };
 		E5C163C6298B905800B50B30 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C163C5298B905800B50B30 /* Launch Screen.storyboard */; };
 		E5C163C9298CCE2100B50B30 /* Monoton-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5C163C8298CCE2100B50B30 /* Monoton-Regular.ttf */; };
+		E5C163D1298DB91A00B50B30 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C163D0298DB91A00B50B30 /* DataController.swift */; };
+		E5C163D9298DCADC00B50B30 /* ActingSceneModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5C163D7298DCADC00B50B30 /* ActingSceneModel.xcdatamodeld */; };
+		E5C163DB298DCDBE00B50B30 /* UICollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C163DA298DCDBE00B50B30 /* UICollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		E57E254A298B7BCE00782E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E5C163C5298B905800B50B30 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		E5C163C8298CCE2100B50B30 /* Monoton-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Monoton-Regular.ttf"; sourceTree = "<group>"; };
+		E5C163D0298DB91A00B50B30 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		E5C163D8298DCADC00B50B30 /* ActingSceneModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ActingSceneModel.xcdatamodel; sourceTree = "<group>"; };
+		E5C163DA298DCDBE00B50B30 /* UICollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,12 @@
 			children = (
 				E5C163C7298CCDCF00B50B30 /* Fonts */,
 				E57E254A298B7BCE00782E10 /* Info.plist */,
-				E5C163C5298B905800B50B30 /* Launch Screen.storyboard */,
+				E5C163CF298DB84400B50B30 /* Views */,
 				E57E2538298B3C1A00782E10 /* ScriptyApp.swift */,
-				E57E253A298B3C1A00782E10 /* ContentView.swift */,
+				E5C163CD298DB7E200B50B30 /* Models */,
 				E57E253C298B3C1E00782E10 /* Assets.xcassets */,
 				E57E253E298B3C1E00782E10 /* Preview Content */,
+				E5C163D2298DB91F00B50B30 /* Controllers */,
 			);
 			path = Scripty;
 			sourceTree = "<group>";
@@ -81,6 +88,32 @@
 				E5C163C8298CCE2100B50B30 /* Monoton-Regular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E5C163CD298DB7E200B50B30 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E5C163D7298DCADC00B50B30 /* ActingSceneModel.xcdatamodeld */,
+				E5C163DA298DCDBE00B50B30 /* UICollectionReusableView.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E5C163CF298DB84400B50B30 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E57E253A298B3C1A00782E10 /* ContentView.swift */,
+				E5C163C5298B905800B50B30 /* Launch Screen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E5C163D2298DB91F00B50B30 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E5C163D0298DB91A00B50B30 /* DataController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +189,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E57E253B298B3C1A00782E10 /* ContentView.swift in Sources */,
+				E5C163D1298DB91A00B50B30 /* DataController.swift in Sources */,
+				E5C163DB298DCDBE00B50B30 /* UICollectionReusableView.swift in Sources */,
+				E5C163D9298DCADC00B50B30 /* ActingSceneModel.xcdatamodeld in Sources */,
 				E57E2539298B3C1A00782E10 /* ScriptyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +403,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E5C163D7298DCADC00B50B30 /* ActingSceneModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E5C163D8298DCADC00B50B30 /* ActingSceneModel.xcdatamodel */,
+			);
+			currentVersion = E5C163D8298DCADC00B50B30 /* ActingSceneModel.xcdatamodel */;
+			path = ActingSceneModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E57E252D298B3C1A00782E10 /* Project object */;
 }
