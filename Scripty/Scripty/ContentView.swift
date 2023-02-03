@@ -9,13 +9,39 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack{
+            NavigationView{
+                Image("BG")
+                .toolbar{
+                    ToolbarItem(placement: .principal){
+                        Text("Scripty")
+                        .foregroundColor(.white)
+                        .font(Font.custom("Monoton-Regular", size: 60))
+                        .padding(.top,60)
+                        
+                    }
+                    
+                }
+            }
+            VStack{
+                Button(action: {
+                    print("button pressed")
+                }) {
+                    
+                    VStack {
+                        Image(systemName:"plus.square.dashed")
+                            .resizable()
+                            .frame(width: 80.0, height: 80.0)
+                            .foregroundColor(.white)
+                        Text("Add New Script")
+                            .foregroundColor(.white)
+                            .font(.system(size: 25))
+                        
+                    }
+                        
+                }
+            }
         }
-        .padding()
     }
 }
 
