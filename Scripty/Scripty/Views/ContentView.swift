@@ -23,6 +23,7 @@ struct ContentView: View {
                         .foregroundColor(.white)
                         .font(Font.custom("Monoton-Regular", size: 60))
                         .padding(.top,60)
+                        .shadow(radius: 2,x:5,y:5)
                         
                     }
                     
@@ -44,9 +45,12 @@ struct ContentView: View {
                                 .resizable()
                                 .frame(width: 80.0, height: 80.0)
                                 .foregroundColor(.white)
+                                .shadow(radius: 2,x:5,y:5)
+                                
                             Text("Add New Scene")
                                 .foregroundColor(.white)
                                 .font(.system(size: 25))
+                                .shadow(radius: 2,x:5,y:5)
                             
                         }
                     }
